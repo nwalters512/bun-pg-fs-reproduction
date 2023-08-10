@@ -1,0 +1,17 @@
+{
+  "name": "bun-pg-fs-reproduction",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/async": "^3.2.20",
+    "@types/pg": "^8.10.2",
+    "async": "^3.2.4",
+    "pg": "^8.11.2"
+  }
+}
