@@ -5,8 +5,7 @@ import async from 'async';
 async.series(
   [
     async () => {
-      const config = await fs.readFile('./config.json', 'utf-8');
-      console.log('loaded config', config);
+      await fs.readFile('./config.json', 'utf-8');
 
       const pool = new pg.Pool({
         host: 'localhost',
